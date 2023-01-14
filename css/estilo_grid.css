@@ -16,9 +16,9 @@
     display: grid;
     grid-template-columns: 10% 90%;
     grid-template-rows: 25vh 60vh 15vh;
-    grid-template-areas: "nav        header"
-        "main        main"
-        "footer     footer";
+    grid-template-areas:    "nav        header"
+                            "main        main"
+                            "footer     footer";
 }
 
 .nav_bar {
@@ -80,7 +80,7 @@
     text-decoration: none;
     font-size: 13px;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* FIN HEADER INICIO */
@@ -355,8 +355,8 @@
         display: grid;
         grid-template-columns: 20% 80%;
         grid-template-rows: 35vh 65vh;
-        grid-template-areas: "nav        header"
-            "main        main";
+        grid-template-areas:    "nav        header"
+                                "main        main";
     }
 
     .menu {
@@ -376,48 +376,22 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1400px) {
 
     .contenedor_inicio {
         display: grid;
-        grid-template-columns: 7% 93%;
+        grid-template-columns: 8% 92%;
         grid-template-rows: 25vh 60vh 15vh;
         grid-template-areas:    "nav        header"
                                 "main        main"
                                 "footer     footer";
     }
 
-    .logo h1 {
-        font-size: 45px;
-    }
-
-    .navbar_oculto li a {
-        font-size: 15px;
-    }
-
-    .navegacion_visible li a {
-        font-size: 15px;
-    }
-
-    .nav_imagen li a {
-        font-size: 15px;
+    .footer_inicio{
+        padding: 65px 85px 0;
     }
 
     .contenido_imagen {
-        padding: 450px 0 0;
-    }
-
-    .footer_inicio {
-        margin: 0;
-        padding: 45px 120px 0;
-        font-size: 13px;
-    }
-
-    .redes {
-        margin: 10px;
-        padding: 10px 35px;
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
+        padding-top: 420px;
     }
 } 
