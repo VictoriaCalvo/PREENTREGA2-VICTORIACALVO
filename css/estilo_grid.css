@@ -398,15 +398,19 @@
 @media screen and (max-width: 480px) {
 
     .logo {
-        width: 50%;
+        width: 60%;
     }
 
     .logo h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
 
     .nav {
-        width: 50%;
+        width: 40%;
+    }
+
+    .contenido_imagen {
+        width: 100vw;
     }
 }
 
