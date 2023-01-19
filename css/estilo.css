@@ -596,37 +596,9 @@
         sidebar
 
         
-.btn_menu {
-    color: white;
-    margin: 10px 10px 10px 30px;
-    padding: 15px;
-}
-
-#btn-menu {
-    display: none;
-}
-
-.fa-solid {
-    cursor: pointer;
-}
 
 
-#btn-menu:checked ~ .nav_bar {
-    opacity: 1;
-    visibility: visible;
-}
-#btn-menu:checked ~ .nav_bar .navbar_oculto{
-    transform: translateX(0%);
-}
-
-.nav_bar li {
-    padding-bottom: 15px;
-}
 
 
-.cerrar {
-    color: black;
-    position: absolute;
-    top: 10px;
-    padding-top: 15px;
-}
+
+
