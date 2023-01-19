@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ESTILO CSS -->
-    <link rel="stylesheet" href="./css/estilo_grid.css">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
     <!-- FONT AWSOME -->
     <script src="https://kit.fontawesome.com/ab98761498.js" crossorigin="anonymous"></script>
+    <!-- ESTILO CSS -->
+    <link rel="stylesheet" href="./css/estilo_grid.css">
     <title>LA ORDEN | INICIO</title>
 </head>
+
 <body class="contenedor_inicio">
-    <nav class="nav_bar">
-        <ul class="navbar_oculto">
-            <li><a href="./pages/new.html">NEW</a></li>
-            <li><a href="./pages/shop_all.html">SHOP ALL</a></li>
-            <li><a href="./pages/envios_seguimiento.html">ENVIO Y ESTADO DEL PEDIDO</a></li>
-            <li><a href="./pages/cambios.html">CAMBIOS</a></li>
-        </ul>
-    </nav>
+    <div class="btn_menu">
+        <label for="btn-menu">
+            <i class="fa-solid fa-bars btn-menu">
+                <input type="checkbox" id="btn-menu">
+                <nav class="nav_bar">
+                    <ul class="navbar_oculto">
+                        <li><a href="./pages/new.html">NEW</a></li>
+                        <li><a href="./pages/shop_all.html">SHOP ALL</a></li>
+                        <li><a href="./pages/envios_seguimiento.html">ENVIO Y ESTADO DEL PEDIDO</a></li>
+                        <li><a href="./pages/cambios.html">CAMBIOS</a></li>
+                        <label for="btn-menu" class="cerrar"><i class="fa-solid fa-xmark"></i></label>
+                    </ul>
+                </nav>
+            </i>
+        </label>
+    </div>
     <header class="header">
         <div class="menu">
             <div class="logo">
@@ -41,12 +53,12 @@
 
     <main class="contenido">
         <section class="contenido_imagen">
-                <nav class="navbar_img">
-                    <ul class="nav_imagen">
-                        <li><a href="./pages/new.html">NEW</a></li>
-                        <li><a href="./pages/shop_all.html">SHOP ALL</a></li>
-                    </ul>
-                </nav>
+            <nav class="navbar_img">
+                <ul class="nav_imagen">
+                    <li><a href="./pages/new.html">NEW</a></li>
+                    <li><a href="./pages/shop_all.html">SHOP ALL</a></li>
+                </ul>
+            </nav>
         </section>
     </main>
 
@@ -64,4 +76,5 @@
         </div>
     </footer>
 </body>
+
 </html>

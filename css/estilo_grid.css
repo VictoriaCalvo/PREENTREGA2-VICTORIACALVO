@@ -14,27 +14,77 @@
     font-family: 'Roboto Condensed', sans-serif;
     width: 100%;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 5% 95%;
     grid-template-rows: 25vh 60vh 15vh;
     grid-template-areas:    "nav        header"
                             "main        main"
                             "footer     footer";
 }
 
+.btn_menu {
+    color: white;
+    margin: 10px 10px 10px 30px;
+    padding: 15px;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
 .nav_bar {
-    margin: 10px;
-    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    cursor: auto;
+    transition: all 500ms ease;
+}
+
+#btn-menu:checked ~ .nav_bar {
+    opacity: 1;
+    visibility: visible;
 }
 
 .navbar_oculto {
     list-style-type: none;
     grid-area: nav;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    padding: 200px 0 0 50px;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+
+#btn-menu:checked ~ .nav_bar .navbar_oculto{
+    transform: translateX(0%);
+}
+
+.nav_bar li {
+    padding-bottom: 15px;
 }
 
 .navbar_oculto li a {
     color: black;
     text-decoration: none;
     font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cerrar {
+    color: black;
+    position: absolute;
+    top: 10px;
+    padding-top: 15px;
 }
 
 .header {
@@ -60,6 +110,7 @@
 .logo h1 a {
     text-decoration: none;
     color: white;
+
 }
 
 .nav {
@@ -577,6 +628,36 @@ input:hover {
 
 }
 
+@media screen and (max-width: 600px) {
+
+    .contenedor_inicio {
+        grid-template-columns: 20% 80%;
+    }
+
+    .navegacion_visible {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegacion_visible li a {
+        padding-right: 5px;
+    }
+
+    .sesion {
+        display: none;
+    }
+
+    .contacto {
+        display: none;
+    }
+
+    .carrito {
+        padding-left: 30px;
+        order: -1;
+        padding-bottom: 30px;
+    }
+}
 
 @media screen and (max-width: 576px) {
 
@@ -630,6 +711,7 @@ input:hover {
 @media screen and (max-width: 480px) {
 
     .contenedor_inicio {
+        overflow-y: hidden;
         grid-template-rows: 35vh 65vh;
         grid-template-areas:    "nav        header"
                                 "main        main";
@@ -677,6 +759,10 @@ input:hover {
 }
 
 @media screen and (max-width: 320px) {
+
+    .contenedor_inicio {
+        grid-template-columns: 20% 80%;
+    }
 
     .logo h1 {
         font-size: 20px;
