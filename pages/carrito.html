@@ -18,14 +18,22 @@
 
 <body>
     <div class="contenedor_pages">
-        <nav class="navbar_pages">
-            <ul class="navbar_oculto">
-                <li><a href="./new.html">NEW</a></li>
-                <li><a href="./shop_all.html">SHOP ALL</a></li>
-                <li><a href="./envios_seguimiento.html">ENVIO Y SEGUIMIENTO</a></li>
-                <li><a href="./cambios.html">CAMBIOS</a></li>
-            </ul>
-        </nav>
+        <div class="btn_pages">
+            <label for="btn-menu">
+                <i class="fa-solid fa-bars btn-menu">
+                    <input type="checkbox" id="btn-menu">
+                    <nav class="navbar_pages">
+                        <ul class="navbar_oculto">
+                            <li><a href="./pages/new.html">NEW</a></li>
+                            <li><a href="./pages/shop_all.html">SHOP ALL</a></li>
+                            <li><a href="./pages/envios_seguimiento.html">ENVIO Y ESTADO DEL PEDIDO</a></li>
+                            <li><a href="./pages/cambios.html">CAMBIOS</a></li>
+                            <label for="btn-menu" class="cerrar"><i class="fa-solid fa-xmark"></i></label>
+                        </ul>
+                    </nav>
+                </i>
+            </label>
+        </div>
         <header class="header">
             <div class="menu">
                 <div class="logo_pages">
@@ -42,9 +50,9 @@
             </div>
         </header>
 
-        <main>
+        <main class="main_carrito">
             <section class="contenedor_carrito">
-                <ul class="carrito">
+                <ul class="carrito_pages">
                     <div class="cesta">
                         <li><a href="./carrito.html">CESTA</a></li>
                     </div>
