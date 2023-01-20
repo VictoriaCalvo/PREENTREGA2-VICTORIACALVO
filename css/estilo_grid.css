@@ -16,9 +16,9 @@
     display: grid;
     grid-template-columns: 5% 95%;
     grid-template-rows: 25vh 60vh 15vh;
-    grid-template-areas: "nav        header"
-        "main        main"
-        "footer     footer";
+    grid-template-areas:    "nav        header"
+                            "main        main"
+                            "footer     footer";
 }
 
 .btn_menu {
@@ -264,6 +264,7 @@
 .logo_pages h1 a {
     text-decoration: none;
     color: black;
+    position: absolute;
 }
 
 .nav_pages {
@@ -621,6 +622,57 @@ input:hover {
 }
 
 /* FIN MAIN CARRITO */
+
+/* INICIO MAIN FAVORITOS  */
+
+        .carrito_favoritos {
+            list-style-type: none;
+            display: flex;
+            margin: 10px 0;
+            padding-left: 137px;
+        }
+
+            .carrito_favoritos li a {
+                text-decoration: none;
+                font-size: 17px;
+                font-family: 'Roboto Condensed', sans-serif;
+                color: black;
+                justify-content: flex-start;
+            }
+
+        .contenedor_favoritos {
+            margin: 20px 0 0 0;
+            padding-left: 137px;
+            width: 30%;
+            margin-bottom: 315px;
+        }
+
+        .info_favoritos {
+            font-size: 11px;
+        }
+
+        
+        .boton_favorito a {
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 5px 78px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 13px;
+            transition: .2s;
+        }
+
+        .boton_favorito a:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .fa-regular {
+            padding: 5px;
+        }
+
+/* FIN MAIN FAVORITOS */
 
 @media screen and (min-width: 1400px) {
 
