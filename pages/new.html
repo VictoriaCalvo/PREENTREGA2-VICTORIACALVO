@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN BOOTSTRAP --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +17,9 @@
     <link rel="stylesheet" href="../css/estilo_grid.css">
     <title>NEW | LA ORDEN</title>
 </head>
+
 <body>
-    <div class="contenedor_pages">
+    <div class="contenedor_new">
         <div class="btn_pages">
             <label for="btn-menu">
                 <i class="fa-solid fa-bars btn-menu">
@@ -47,46 +51,35 @@
                 </nav>
             </div>
         </header>
+    </div>
 
         <main>
-            <section class="contenedor_img">
-                <div class="galeria">
-                    <div class="img">
-                        <a href="">
-                            <video src="../assets/VID_20201123_172426.mp4" autoplay muted loop>
-                            </video>
-                            <p>VESTIDO UNO</p>
+            <section class="container d-flex ">
+                <div class="row">
+                    <div class="col-12 d-flex ">
+                        <a href="#">
+                            <video class="video" src="../assets/VID_20201123_172426.mp4" autoplay muted loop></video>
+                            <p>VESTIDO AUREUS</p>
                         </a>
                     </div>
-                </div>
-                <div class="img_video">
-                    <div class="img">
+                <div class="row">
+                    <div class="col-5">
                         <a href="#">
-                            <img src="../assets/lao2.jpg" alt="">
-                            <p>REMERÓN</p>
+                            <img class="img_video" src="../assets/lao2.jpg" alt="">
+                            <p>REMERON</p>
                         </a>
                     </div>
-                    <div class="img">
+                    <div class="col-5">
                         <a href="#">
-                            <img src="../assets/lao1.jpg" alt="">
+                            <img class="img" src="../assets/lao1.jpg" alt="">
                             <p>CONJUNTO UNO</p>
-                        </a>
-                    </div>
-                    <div class="img">
-                        <a href="#">
-                            <img src="../assets/201.jpg" alt="">
-                            <p>CONJUNTO SIRENA</p>
-                        </a>
-                    </div>
-                    <div class="img">
-                        <a href="#"><img src="../assets/A .jpg" alt="">
-                        <p>CONJUNTO SIRENA</p>
                         </a>
                     </div>
                 </div>
             </section>
         </main>
 
+    <div class="new_footer">
         <footer class="footer">
             <div class="footer_pages">
                 <div class="copy">
@@ -98,5 +91,10 @@
             </div>
         </footer>
     </div>
+
+<!-- CDN BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
 </body>
 </html>

@@ -543,6 +543,9 @@
 
 /* INICIO MAIN NEW 
 
+
+section img 
+
         .contenedor_img {
             margin: 0;
             padding: 0;
@@ -593,7 +596,41 @@
 
         /* FIN MAI NEW 
 
-        sidebar
+                        <!-- <div class="galeria">} -->
+                    <div class="row">
+                        <a href="#">
+                            <video class="col-12" src="../assets/VID_20201123_172426.mp4" autoplay muted loop>
+                            </video>
+                            <p>VESTIDO UNO</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="img_video">
+                    <div class="img">
+                        <a href="#">
+                            <img src="../assets/lao2.jpg" alt="">
+                            <p>REMERÓN</p>
+                        </a>
+                    </div>
+                    <div class="img">
+                        <a href="#">
+                            <img src="../assets/lao1.jpg" alt="">
+                            <p>CONJUNTO UNO</p>
+                        </a>
+                    </div>
+                    <div class="img">
+                        <a href="#">
+                            <img src="../assets/201.jpg" alt="">
+                            <p>CONJUNTO SIRENA</p>
+                        </a>
+                    </div>
+                    <div class="img">
+                        <a href="#">
+                            <img src="../assets/A .jpg" alt="">
+                            <p>CONJUNTO SIRENA</p>
+                        </a>
+                    </div>
+                </div>
 
         
 
