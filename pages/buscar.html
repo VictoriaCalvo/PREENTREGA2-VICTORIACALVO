@@ -8,16 +8,17 @@
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
     <!-- FONT AWSOME -->
     <script src="https://kit.fontawesome.com/ab98761498.js" crossorigin="anonymous"></script>
     <!-- ESTILO CSS -->
-    <link rel="stylesheet" href="../css/estilo_grid.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>BUSCADOR | LA ORDEN</title>
 </head>
 
 <body>
     <div class="contenedor_pages">
+<!-- NAV -->
         <div class="btn_pages">
             <label for="btn-menu">
                 <i class="fa-solid fa-bars btn-menu">
@@ -28,12 +29,21 @@
                             <li><a href="./shop_all.html">SHOP ALL</a></li>
                             <li><a href="./envios_seguimiento.html">ENVIO Y ESTADO DEL PEDIDO</a></li>
                             <li><a href="./cambios.html">CAMBIOS</a></li>
+                            <div class="oculto">
+                                <div class="sesion_oculto">
+                                    <li><a href="./iniciar_sesion.html">INICIAR SESION</a></li>
+                                </div>
+                                <div class="contacto_oculto">
+                                    <li><a href="./contacto.html">CONTACTO</a></li>
+                                </div>
+                            </div>
                             <label for="btn-menu" class="cerrar"><i class="fa-solid fa-xmark"></i></label>
                         </ul>
                     </nav>
                 </i>
             </label>
         </div>
+<!-- HEADER -->
         <header class="header">
             <div class="menu">
                 <div class="logo_pages">
@@ -42,9 +52,9 @@
                 <nav class="nav_pages">
                     <ul class="navegacion_pages">
                         <li><a href="./buscar.html">BUSCAR</a></li>
-                        <li><a href="./iniciar_sesion.html">INICIAR SESION</a></li>
-                        <li><a href="./contacto.html">CONTACTO</a></li>
-                        <li><a href="./carrito.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        <li class="sesion"><a href="./iniciar_sesion.html">INICIAR SESION</a></li>
+                        <li class="contacto"><a href="./contacto.html">CONTACTO</a></li>
+                        <li class="carrito"><a href="./carrito.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                     </ul>
                 </nav>
             </div>
