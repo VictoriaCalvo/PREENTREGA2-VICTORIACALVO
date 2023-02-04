@@ -1,0 +1,102 @@
+.btn_menu {
+    color: white;
+    margin: 10px 10px 10px 30px;
+    padding: 15px;
+}
+
+#btn-menu {
+    display: none;
+}
+
+#btn-menu:checked~.nav_bar {
+    opacity: 1;
+    visibility: visible;
+
+    .navbar_oculto {
+        transform: translateX(0%);
+    }
+}
+
+.btn_pages {
+    color: black;
+    margin: 10px 10px 10px 30px;
+    padding: 15px;
+}
+
+#btn-menu:checked~.navbar_pages {
+    opacity: 1;
+    visibility: visible;
+
+    .navbar_oculto {
+        transform: translateX(0%);
+    }
+}
+
+
+.boton {
+    padding: 5px;
+
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        padding: 5px 90px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 13px;
+        transition: .2s;
+
+        &:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+    }
+}
+
+.boton_iniciar {
+    margin-top: 20px;
+    border: none;
+}
+
+.boton_cuenta {
+    border: none;
+
+    a:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+}
+
+.boton_enviar {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    transition: .2s;
+    width: 25%;
+}
+
+input:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.boton_favorito a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 78px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    transition: .2s;
+
+    &:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+}

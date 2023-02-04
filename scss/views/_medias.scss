@@ -1,0 +1,299 @@
+
+@media screen and (max-width: 992px) {
+    .contenedor_inicio {
+        grid-template-columns: 8% 92%;
+    }
+
+    .redes {
+        padding-left: 85px;
+    }
+
+    .web {
+        padding-right: 130px;
+    }
+
+    .contenedor_pages {
+        grid-template-columns: 8% 92%;
+    }
+
+    .copy {
+        padding-left: 90px;
+    }
+
+    .web_pages {
+        width: 40%;
+    }
+
+    .formulario {
+        padding-left: 80px;
+
+        &_buscar {
+            padding: 0 0 360px 100px;
+        }
+    }
+
+    .contenedor_iniciar {
+        width: 43%;
+    }
+
+    .contenedor_registrate {
+        width: 35%;
+    }
+
+    .formulario_contacto {
+        margin: 0 15px 10px;
+        padding: 0 80px 0 80px;
+    }
+
+    .carrito_pages {
+        padding-left: 100px;
+    }
+
+    .info_carrito {
+        margin-bottom: 170px;
+    }
+
+    .contenedor_favoritos {
+        width: 35%;
+        margin-bottom: 280px;
+    }
+
+    .contenedor_new {
+        grid-template-columns: 8% 92%;
+    }
+
+    .galeria {
+        padding-right: 0;
+
+        &_video {
+            padding-right: 0;
+        }
+    }
+
+    .img {
+        width: 400px;
+    }
+}
+
+
+/* VISTA TABLET */
+
+@media screen and (max-width: 768px) {
+
+    .contenedor_inicio {
+        grid-template-columns: 10% 90%;
+    }
+
+    .contenido_imagen {
+        padding-top: 300px;
+    }
+
+    .redes {
+        padding-left: 82px;
+    }
+
+    .web {
+        padding-right: 60px;
+    }
+
+    .copy {
+        padding-left: 77px;
+    }
+
+    .footer_inicio {
+        padding-top: 45px;
+    }
+
+    .contenedor_pages {
+        grid-template-columns: 10% 90%;
+    }
+
+    .footer_pages {
+        padding: 45px 10px 0;
+    }
+
+    .web_pages {
+        padding-right: 60px;
+        width: 40%;
+    }
+
+    .formulario {
+        padding-left: 80px;
+
+        &_buscar {
+            padding-left: 97px;
+        }
+    }
+
+    .contenedor_iniciar {
+        width: 49%;
+    }
+
+        #email {
+            width: 95%;
+        }
+
+        #contraseña {
+            width: 95%;
+        }
+
+    .contenedor_registrate {
+        width: 49%;
+    }
+
+    .formulario_contacto {
+        padding-left: 79px; 
+    }
+
+    .form_form {
+        width: 80%;
+    }
+
+    .carrito_pages {
+        padding-left: 98px;
+    }
+
+    .carrito_favoritos {
+        padding-left: 97px;
+    }
+
+    .contenedor_favoritos {
+        width: 45%;
+        padding-left: 97px;
+    }
+
+    .contenedor_new {
+        grid-template-columns: 10% 90%;
+    }
+
+    .new_footer {
+        padding: 45px 10px 0;
+    }
+
+}
+
+/* VISTA MOBILE */
+
+@media screen and (max-width: 576px) {
+
+    .contenedor_inicio {
+        background-image: url(../assets/A.jpg);
+        grid-template-columns: 13% 87%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .navbar_oculto {
+        max-width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .web {
+        display: none;
+    }
+
+    .navegacion_visible {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            a {
+                padding-right: 5px;
+            }
+        }
+    }
+
+    .sesion {
+        display: none;
+    }
+
+    .contacto {
+        display: none;
+    }
+
+    .carrito {
+        padding-left: 30px;
+        order: -1;
+        padding-bottom: 30px;
+    }
+
+    .contenido_imagen {
+        padding-top: 330px;
+    }
+
+    .redes {
+        padding-left: 0;
+    }
+
+    .oculto {
+        padding: 150px 50px 0 0;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .contenedor_pages {
+        grid-template-columns: 13% 87%;
+    }
+
+    .logo_pages {
+        width: 50%;
+    }
+
+    .nav_pages {
+        width: 50%;
+    }
+
+    .footer_pages {
+        padding: 45px 87px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copy {
+        padding-left: 87px;
+        width: 100%;
+    }
+
+    .web_pages {
+        padding-right: 113px;
+        width: 100%;
+    }
+
+
+    .navegacion_pages {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            a {
+                padding-right: 5px;
+            }
+        }
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor_iniciar {
+        width: 67%;
+    }
+
+    .contenedor_registrate {
+        display: none;
+    }
+}

@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/ab98761498.js" crossorigin="anonymous"></script>
     <!-- ESTILO CSS -->
     <link rel="stylesheet" href="../css/main.css">
-    <title>CONTACTO | LA ORDEN</title>
+    <title>IDENTIFICATE / REGISTRATE | LA ORDEN</title>
 </head>
 
 <body>
@@ -60,28 +60,37 @@
             </div>
         </header>
 
-        <main class="main_contacto">
-            <section class="contenedor_contacto">
-                <div class="formulario_contacto">
-                    <h2>CONTACTO</h2>
-                    <form class="form_form">
-                        <div class="contacto_nombre">
-                            <input type="text" name="nombre" id="nombre" placeholder="NOMBRE" size="38px">
+        <main class="main_sesion">
+            <section class="formulario">
+                <div class="contenedor_iniciar">
+                        <h2>ENVIO</h2>
+                        <div class="iniciar">
+                            <p>Las opciones de envío pueden variar en función de la dirección de entrega, la hora de tu compra y la disponibilidad de los artículos.</p>
+                            <p>En el momento de procesar tu compra, te mostraremos los métodos de envío disponibles, el coste y la fecha de entrega de tu pedido.</p>
+                            <p>Las opciones son las siguientes:</p>
+                            <h3>ENTREGAS A DOMICILIO</h3>
+                            <p>Los envios son realizados a través de la empresa Correo Argentino (<a href="https://www.correoargentino.com.ar/" target="_blank">www.correoargentino.com</a>) y mensajería privada si estas en el Gran Mendoza.</p>
+                            <h3>TIEMPO DE ENTREGA</h3>
+                            Si seleccionaste la opción de Correo Argentino, el plazo estimado de entrega oscilará entre 2-6 días laborables, dependiendo de la dirección de entrega.
+                            Si seleccionaste la opción mensajeria privada te llegará en el día. 
+                            <h3>COSTOS</h3>
+                            <P>El costo de envío depende de la ubicación que hayas seleccionado. Vas a poder ver el valor del costo de envío en el checkout (momento previo a la compra). El costo de envío es a cargo del consumidor.</P>
                         </div>
-                        <div class="contacto_email">
-                            <input type="email" name="email" id="mail" placeholder="E-MAIL" size="38px">
-                        </div>
-                        <div class="contacto_telefono">
-                            <input type="tel" name="telefono" id="telefono" placeholder="TELÉFONO" size="38px">
-                        </div>
-                        <div class="mensaje">
-                            <textarea name="message" id="message" rows="10" placeholder="Mensaje" autocapitalize="off"
-                                autocomplete="off"></textarea>
-                        </div>
-                        <div class="boton">
-                            <input class="boton_enviar" type="submit" value="ENVIAR">
-                        </div>
-                    </form>
+                </div>
+                <div class="contenedor_registrate">
+                    <h2>ESTADO DEL PEDIDO</h2>
+                    <div class="registrate">
+                        <p>Recibirás actualizaciones del estado de tu pedido por email.</p>
+                        <p>También puedes acceder a esta información a través del apartado <a href="./iniciar_sesion.html">Compras</a>.</p>
+                        <p>Estos son los estados por los que pasará tu pedido:</p>
+                        <p>- <b>Comprado:</b> has finalizado correctamente la compra de tu pedido.</p>
+                        <p>- <b>En curso:</b> hemos recibido la información de tu compra.</p>
+                        <p>- <b>En preparación:</b> tu pedido está siendo preparado en el almacén.</p>
+                        <p>- <b>Enviado:</b> el pedido ya ha salido de nuestras instalaciones.</p>
+                        <p>Luego de que el paquete hayya salido de nuestras instalaciones recibiras un mail con el codigo de seguimiento correspodiente a Correo Argentino para que puedas seguirlo en <a href="https://www.correoargentino.com.ar/" target="_blank">www.correoargentino.com</a></p>
+                    <div class="cuenta">
+                        <button class="boton_cuenta"><a href="./crear_cuenta.html">CREAR CUENTA</a></button>
+                    </div>
                 </div>
             </section>
         </main>
