@@ -1,3 +1,7 @@
+@import "../scss/variables/colores";
+@import "../scss/variables/fontsize";
+@import "../scss/variables/maps";
+@import "../scss/funciones/mixin";
 @import "../scss/normalize/reset";
 @import "../scss/layout/grid";
 @import "../scss/layout/flex";
@@ -7,3 +11,4 @@
 @import "../scss/components/mains";
 @import "../scss/components/footer";
 @import "../scss/components/iconos";
+@import "../scss/views/medias";

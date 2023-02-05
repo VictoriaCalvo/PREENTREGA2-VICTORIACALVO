@@ -1,13 +1,12 @@
 .footer {
-    margin: 0;
-    padding: 0;
+    @include margin_padding;
     grid-area: footer;
 
     &_inicio {
         margin: 0;
         padding-top: 45px;
-        font-size: 11px;
-        color: white;
+        font-size: map-get($font_tamano, dos);
+        color: map-get($colores_pagina, secundario);
         display: flex;
         justify-content: space-between;
     }
@@ -23,7 +22,7 @@
     li {
         a {
             padding: 0 5px;
-            color: white;
+            color: map-get($colores_pagina, secundario);
             text-decoration: none;
         }
     }
@@ -49,14 +48,14 @@
     margin: 10px;
     padding-left: 80px;
     width: 40%;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
 }
 
 .web_pages {
     margin: 10px;
     padding-right: 140px;
     width: 30%;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     display: flex;
     justify-content: end;
 }

@@ -238,7 +238,7 @@
 
         li {
             a {
-                font-size: 16px;
+                font-size:  map-get($font_tamano, cinco);
             }
         }
     }
@@ -256,7 +256,7 @@
     }
 
     .footer_pages {
-        padding: 45px 87px;
+        padding: 45px 97px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -297,3 +297,7 @@
         display: none;
     }
 }
+
+    .contenedor_favoritos {
+        width: 60%;
+    }

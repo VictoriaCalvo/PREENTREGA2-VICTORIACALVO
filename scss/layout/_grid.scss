@@ -1,29 +1,13 @@
 .contenedor_inicio {
-    margin: 0;
-    padding: 0;
+    @include margin_padding;
     background-image: url(../assets/s1.jpg);
     background-size: cover;
-    font-family: 'Roboto Condensed', sans-serif;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 5% 95%;
-    grid-template-rows: 25vh 60vh 15vh;
-    grid-template-areas:    "nav        header"
-                            "main        main"
-                            "footer     footer";
+    @include contenedor_grid ( 5% 95%, 25vh 60vh 15vh, "nav     header"   "main     main"    "footer    footer", $width, $font_family);
 }
 
 .contenedor_pages {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    display: grid;
-    grid-template-columns: 5% 95%;
-    grid-template-rows: 25vh 60vh 15vh;
-    grid-template-areas:    "nav        header"
-                            "main        main"
-                            "footer     footer";
+    @include margin_padding;
+    @include contenedor_grid ( 5% 95%, 25vh 60vh 15vh, "nav     header"   "main     main"    "footer    footer", $width, $font_family);
 }
 
 .main_buscar {
@@ -38,30 +22,16 @@
     grid-area: main;
 }
 
-
 .main_carrito {
     grid-area: main;
 }
 
 .contenedor_new {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    display: grid;
-    grid-template-columns: 5% 95%;
-    grid-template-rows: 25vh;
-    grid-template-areas: "nav        header";
+    @include margin_padding;
+    @include contenedor_grid ( 5% 95%, 25vh, "nav     header", $width, $font_family);
 }
 
-
 .new_footer {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 15vh;
-    grid-template-areas: "footer     footer";
+    @include margin_padding;
+    @include contenedor_grid ( 100%, 15vh, "footer     footer", $width, $font_family);
 }

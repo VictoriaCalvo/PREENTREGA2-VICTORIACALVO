@@ -1,6 +1,5 @@
 .contenido {
-    margin: 0;
-    padding: 0;
+    @include margin_padding;
     grid-area: main;
 
     &_imagen {
@@ -12,16 +11,16 @@
 
 .nav_imagen {
     list-style-type: none;
-    color: white;
+    color: map-get($colores_pagina, secundario);
     display: flex;
     align-items: center;
     flex-direction: column;
 
     li {
         a {
-            color: white;
+            color: map-get($colores_pagina, secundario);
             text-decoration: none;
-            font-size: 13px;
+            font-size: map-get($font_tamano, tres);
         }
     }
 }
@@ -41,9 +40,9 @@
 input:focus {
     outline: none;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 15px;
+    font-size: map-get($font_tamano, cuatro);
     padding: 0 0 5px;
     width: 100%;
 }
@@ -56,7 +55,7 @@ input:focus {
 
     h2 {
         padding: 5px;
-        font-size: 17px;
+        font-size: map-get($font_tamano, cinco)
     }
 }
 
@@ -71,7 +70,6 @@ input:focus {
 
     a {
         text-decoration: none;
-        color: black;
     }
 }
 
@@ -83,9 +81,9 @@ input:focus {
 input:focus {
     outline: none;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     width: 75%;
 }
 
@@ -97,14 +95,15 @@ input:focus {
 input:focus {
     outline: none;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     width: 75%;
 }
 
 .recuperar_contraseña {
-    font-size: 10px;
+    color: map-get($colores_pagina, primario);
+    font-size: map-get($font_tamano, uno)
 }
 
 .registrate {
@@ -112,7 +111,7 @@ input:focus {
 
     p {
         padding: 5px 0 10px 5px;
-        font-size: 11px;
+        font-size: map-get($font_tamano, dos);
     }
 }
 
@@ -121,27 +120,25 @@ input:focus {
 
     a {
         text-decoration: none;
-        color: white;
+        color: map-get($colores_pagina, secundario);
         padding: 5px 90px;
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 13px;
-        background-color: black;
+        font-size: map-get($font_tamano, tres);
+        background-color: map-get($colores_pagina, primario);
         transition: .2s;
     }
 }
 
 .contenedor_contacto {
-    margin: 0;
-    padding: 0;
+    @include margin_padding;
 }
 
 .formulario_contacto {
-    margin: 20px 15px 39px;
-    padding: 0 80px 0 68px;
+    @include margin_y_padding ( 20px 15px 39px, 0 80px 0 68px);
 
     h2 {
         padding: 5px;
-        font-size: 17px;
+        font-size: map-get($font_tamano, cinco)
     }
 }
 
@@ -153,9 +150,9 @@ input:focus {
 input:focus {
     outline: none;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     width: 25%;
 }
 
@@ -167,9 +164,9 @@ input:focus {
 input:focus {
     outline: none;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     width: 25%;
 }
 
@@ -181,9 +178,9 @@ input:focus {
 input:focus {
     outline: none;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
     width: 25%;
 }
 
@@ -194,17 +191,16 @@ input:focus {
 #message,
 input:focus {
     outline: none;
-    border: 1px solid black;
+    border: 1px solid $negro;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
+    font-size: map-get($font_tamano, tres);
     width: 25%;
     padding: 2px;
 }
 
 
 .contenedor_carrito {
-    margin: 0;
-    padding: 0;
+    @include margin_padding;
 }
 
 .carrito_pages {
@@ -216,9 +212,9 @@ input:focus {
     li {
         a {
             text-decoration: none;
-            font-size: 17px;
+            font-size: map-get($font_tamano, cinco);
             font-family: 'Roboto Condensed', sans-serif;
-            color: black;
+            color: map-get($colores_pagina, primario);
             justify-content: flex-start;
         }
     }
@@ -241,9 +237,9 @@ input:focus {
     li {
         a {
             text-decoration: none;
-            font-size: 17px;
+            font-size: map-get($font_tamano, cinco);
             font-family: 'Roboto Condensed', sans-serif;
-            color: black;
+            color: map-get($colores_pagina, primario);
             justify-content: flex-start;
         }
     }
@@ -256,9 +252,8 @@ input:focus {
 }
 
 .info_favoritos {
-    font-size: 11px;
+    font-size: map-get($font_tamano, dos);
 }
-
 
 .galeria {
     padding-right: 35px;
@@ -266,8 +261,8 @@ input:focus {
 
     a {
         text-decoration: none;
-        color: black;
-        font-size: 13px;
+        color: map-get($colores_pagina, primario);
+        font-size: map-get($font_tamano, tres);
         padding: 0 20px 0 20px;
         font-family: 'Roboto Condensed', sans-serif;
     }
@@ -286,8 +281,8 @@ input:focus {
     
         a {
             text-decoration: none;
-            color: black;
-            font-size: 13px;
+            color: map-get($colores_pagina, primario);
+            font-size: map-get($font_tamano, tres);
             padding: 0 20px 0 20px;
             font-family: 'Roboto Condensed', sans-serif;
         }

@@ -6,8 +6,7 @@
 }
 
 .contenedor_registrate {
-    margin: 10px;
-    padding: 5px;
+    @include margin_y_padding (10px, 5px);
     width: 25%;
     display: flex;
     flex-direction: column;
@@ -15,9 +14,8 @@
 }
 
 .info_carrito {
-    font-size: 10px;
+    font-size: map-get($font_tamano, uno);
     display: flex;
     justify-content: center;
     margin-bottom: 184px;
 }
-

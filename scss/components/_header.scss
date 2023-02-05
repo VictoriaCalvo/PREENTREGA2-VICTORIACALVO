@@ -1,8 +1,6 @@
-
 .header {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    @include margin_padding;
     display: flex;
     grid-area: header;
 }
@@ -21,10 +19,10 @@
     h1 {
         a {
             text-decoration: none;
-            color: white;
+            color: map-get($colores_pagina, secundario);
             position: absolute;
             font-weight: 700;
-            font-size: 35px;
+            font-size: map-get($font_tamano, seis)
         }
     }
 }
@@ -38,8 +36,8 @@
     li {
         a {
             text-decoration: none;
-            font-size: 13px;
-            color: white;
+            font-size: map-get($font_tamano, tres);
+            color: map-get($colores_pagina, secundario);
             padding: 15px;
         }
     }
@@ -53,10 +51,10 @@
     h1 {
         a {
             text-decoration: none;
-            color: black;
+            color: map-get($colores_pagina, primario);
             position: absolute;
             font-weight: 700;
-            font-size: 35px;
+            font-size: map-get($font_tamano, seis)
         }
     }
 }
@@ -77,8 +75,8 @@
     li {
         a {
             text-decoration: none;
-            font-size: 13px;
-            color: black;
+            font-size: map-get($font_tamano, tres);
+            color: map-get($colores_pagina, primario);
             padding: 15px;
         }
     }
