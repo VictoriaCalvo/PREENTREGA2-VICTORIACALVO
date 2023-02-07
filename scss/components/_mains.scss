@@ -260,7 +260,7 @@
     }
 
     p {
-        padding-left: 20px;
+        padding: 5px 0 0 20px;
 
         &:hover {
             text-decoration: underline;
@@ -282,13 +282,12 @@
 }
 
 .img {
-    width: 100%;
+    width: 400px;
 
     &_img {
         padding-top: 40px;
     }
 }
-
 
 .video {
     width: 400px;
@@ -309,38 +308,40 @@
         margin: 10px 40px 10px 10px;
         padding: 5px;
         width: 30%;
-    }
 
-    .info_envio {
 
-        padding: 5px;
+        .info_envio {
 
-        .parrafo {
-            font-size: map-get($font_tamano, dos);
-            font-family: 'Roboto Condensed', sans-serif;
+            padding: 5px;
 
-            p {
-                padding-bottom: 5px;
-            }
-        }
-
-        h3 {
-            font-size: map-get($font_tamano, cuatro);
-            padding-bottom: 5px;
-        }
-
-        .opciones {
-
-            p {
+            .parrafo {
                 font-size: map-get($font_tamano, dos);
                 font-family: 'Roboto Condensed', sans-serif;
-                padding-bottom: 12px;
+
+                p {
+                    padding-bottom: 5px;
+                }
             }
 
-            a {
-                text-decoration: none;
+            h3 {
+                font-size: map-get($font_tamano, cuatro);
+                padding-bottom: 5px;
+            }
+
+            .opciones {
+
+                p {
+                    font-size: map-get($font_tamano, dos);
+                    font-family: 'Roboto Condensed', sans-serif;
+                    padding-bottom: 12px;
+                }
+
+                a {
+                    text-decoration: none;
+                }
             }
         }
+
     }
 
     .pedido {
@@ -365,16 +366,20 @@
         }
     }
 
-    .info_cambios {
-
-        padding: 5px;
-
-        p {
-            padding-bottom: 10px;
-        }
-    }
-
     .contenedor_cambios {
-        @extend .contenedor_envio
+        margin: 10px 40px 10px 10px;
+        padding: 5px;
+        width: 30%;
     }
+
+        .info_cambios {
+
+            padding: 5px;
+
+            p {
+                padding-bottom: 10px;
+                font-size: map-get($font_tamano, dos);
+                font-family: 'Roboto Condensed', sans-serif;
+            }
+        }
 }
