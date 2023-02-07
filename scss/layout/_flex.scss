@@ -19,3 +19,10 @@
     justify-content: center;
     margin-bottom: 184px;
 }
+
+.contenedor_pedido {
+    @include margin_y_padding (10px, 5px);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}

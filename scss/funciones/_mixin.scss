@@ -8,11 +8,10 @@
     padding: 0;
 }
 
-@mixin contenedor_grid ($columnas, $filas, $area, $width, $font_family) {
+@mixin contenedor_grid ($columnas, $filas, $area, $width) {
     display: grid;
     grid-template-columns: $columnas;
     grid-template-rows: $filas;
     grid-template-areas: $area;
-    width: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
+    width: $width;
 }

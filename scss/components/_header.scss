@@ -3,81 +3,83 @@
     @include margin_padding;
     display: flex;
     grid-area: header;
-}
 
-.menu {
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-}
 
-.logo {
-    grid-area: header;
-    width: 45%;
+    .menu {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
 
-    h1 {
-        a {
-            text-decoration: none;
-            color: map-get($colores_pagina, secundario);
-            position: absolute;
-            font-weight: 700;
-            font-size: map-get($font_tamano, seis)
+    .logo {
+        grid-area: header;
+        width: 45%;
+
+        h1 {
+            a {
+                text-decoration: none;
+                color: map-get($colores_pagina, secundario);
+                position: absolute;
+                font-weight: 700;
+                font-size: map-get($font_tamano, seis)
+            }
         }
     }
-}
 
-.navegacion_visible {
-    margin: 5px 20px 0 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
+    .navegacion_visible {
+        margin: 5px 20px 0 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
 
-    li {
-        a {
-            text-decoration: none;
-            font-size: map-get($font_tamano, tres);
-            color: map-get($colores_pagina, secundario);
-            padding: 15px;
+        li {
+            a {
+                text-decoration: none;
+                font-size: map-get($font_tamano, tres);
+                color: map-get($colores_pagina, secundario);
+                padding: 15px;
+            }
         }
     }
-}
 
 
-.logo_pages {
-    width: 40%;
-    grid-area: header;
+    .logo_pages {
+        width: 40%;
+        grid-area: header;
 
-    h1 {
-        a {
-            text-decoration: none;
-            color: map-get($colores_pagina, primario);
-            position: absolute;
-            font-weight: 700;
-            font-size: map-get($font_tamano, seis)
+        h1 {
+            a {
+                text-decoration: none;
+                color: map-get($colores_pagina, primario);
+                position: absolute;
+                font-weight: 700;
+                font-size: map-get($font_tamano, seis)
+            }
         }
     }
-}
 
-.nav_pages {
-    width: 75%;
-    grid-area: header;
-    display: flex;
-    justify-content: end;
-}
+    .nav_pages {
+        width: 75%;
+        grid-area: header;
+        display: flex;
+        justify-content: end;
+    }
 
-.navegacion_pages {
-    margin: 5px 20px 0 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
+    .navegacion_pages {
+        margin: 5px 20px 0 0;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
 
-    li {
-        a {
-            text-decoration: none;
-            font-size: map-get($font_tamano, tres);
-            color: map-get($colores_pagina, primario);
-            padding: 15px;
+        li {
+            a {
+                text-decoration: none;
+                font-size: map-get($font_tamano, tres);
+                color: map-get($colores_pagina, primario);
+                padding: 15px;
+            }
         }
     }
+
 }

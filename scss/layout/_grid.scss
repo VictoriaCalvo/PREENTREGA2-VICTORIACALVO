@@ -2,12 +2,14 @@
     @include margin_padding;
     background-image: url(../assets/s1.jpg);
     background-size: cover;
-    @include contenedor_grid ( 5% 95%, 25vh 60vh 15vh, "nav     header"   "main     main"    "footer    footer", $width, $font_family);
+    @include contenedor_grid (5% 95%, 25vh 60vh 15vh, "nav     header" "main     main" "footer    footer", 100%);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .contenedor_pages {
     @include margin_padding;
-    @include contenedor_grid ( 5% 95%, 25vh 60vh 15vh, "nav     header"   "main     main"    "footer    footer", $width, $font_family);
+    @include contenedor_grid ( 5% 95%, 25vh 60vh 15vh,"nav     header" "main     main" "footer    footer", 100%);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .main_buscar {
@@ -28,10 +30,8 @@
 
 .contenedor_new {
     @include margin_padding;
-    @include contenedor_grid ( 5% 95%, 25vh, "nav     header", $width, $font_family);
+    @include contenedor_grid ( 5% 95%, 25vh, "nav     header", 100%);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.new_footer {
-    @include margin_padding;
-    @include contenedor_grid ( 100%, 15vh, "footer     footer", $width, $font_family);
-}
+

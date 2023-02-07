@@ -7,20 +7,20 @@
         margin: 0;
         padding-top: 380px;
     }
-}
 
-.nav_imagen {
-    list-style-type: none;
-    color: map-get($colores_pagina, secundario);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    .nav_imagen {
+        list-style-type: none;
+        color: map-get($colores_pagina, secundario);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
 
-    li {
-        a {
-            color: map-get($colores_pagina, secundario);
-            text-decoration: none;
-            font-size: map-get($font_tamano, tres);
+        li {
+            a {
+                color: map-get($colores_pagina, secundario);
+                text-decoration: none;
+                font-size: map-get($font_tamano, tres);
+            }
         }
     }
 }
@@ -29,27 +29,27 @@
     margin: 0;
     padding: 0;
     width: 100%;
-}
 
-.formulario_buscar {
-    margin: 10px 0;
-    padding: 0 0 382px 88px;
-}
+    .formulario_buscar {
+        margin: 10px 0;
+        padding: 0 0 370px 96px;
+    }
 
-#buscar,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: 1px solid $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, cuatro);
-    padding: 0 0 5px;
-    width: 100%;
+    #buscar,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, cuatro);
+        padding: 0 0 5px;
+        width: 100%;
+    }
 }
 
 .formulario {
     margin-bottom: 14px;
-    padding: 80px 70px;
+    padding: 80px 77px;
     display: flex;
     width: 100%;
 
@@ -57,53 +57,53 @@ input:focus {
         padding: 5px;
         font-size: map-get($font_tamano, cinco)
     }
-}
 
-.contenedor_iniciar {
-    margin: 10px;
-    padding: 5px;
-    width: 30%;
-}
-
-.iniciar {
-    padding: 0;
-
-    a {
-        text-decoration: none;
+    .contenedor_iniciar {
+        margin: 10px;
+        padding: 5px;
+        width: 30%;
     }
-}
 
-.contenedor_email {
-    padding: 20px 0 10px 5px;
-}
+    .iniciar {
+        padding: 0;
 
-#email,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, dos);
-    width: 75%;
-}
+        a {
+            text-decoration: none;
+        }
+    }
 
-.contenedor_contraseña {
-    padding: 10px 0 10px 5px;
-}
+    .contenedor_email {
+        padding: 20px 0 10px 5px;
+    }
 
-#contraseña,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, dos);
-    width: 75%;
-}
+    #email,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: solid 1px $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, dos);
+        width: 75%;
+    }
 
-.recuperar_contraseña {
-    color: map-get($colores_pagina, primario);
-    font-size: map-get($font_tamano, uno)
+    .contenedor_contraseña {
+        padding: 10px 0 10px 5px;
+    }
+
+    #contraseña,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: solid 1px $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, dos);
+        width: 75%;
+    }
+
+    .recuperar_contraseña {
+        color: map-get($colores_pagina, primario);
+        font-size: map-get($font_tamano, uno)
+    }
 }
 
 .registrate {
@@ -113,146 +113,138 @@ input:focus {
         padding: 5px 0 10px 5px;
         font-size: map-get($font_tamano, dos);
     }
-}
-
-.cuenta {
-    padding: 5px;
 
     a {
         text-decoration: none;
-        color: map-get($colores_pagina, secundario);
-        padding: 5px 90px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-size: map-get($font_tamano, tres);
-        background-color: map-get($colores_pagina, primario);
-        transition: .2s;
+        color: map-get($colores_pagina, primario)
     }
 }
 
 .contenedor_contacto {
     @include margin_padding;
-}
 
-.formulario_contacto {
-    @include margin_y_padding ( 20px 15px 39px, 0 80px 0 68px);
+    .formulario_contacto {
+        @include margin_y_padding (20px 15px 39px, 0 80px 0 77px);
 
-    h2 {
-        padding: 5px;
-        font-size: map-get($font_tamano, cinco)
+        h2 {
+            padding: 5px;
+            font-size: map-get($font_tamano, cinco)
+        }
+    }
+
+    .contacto_nombre {
+        padding: 20px 0 10px 5px;
+    }
+
+    #nombre,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: solid 1px $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, dos);
+        width: 25%;
+    }
+
+    .contacto_email {
+        padding: 10px 0 10px 5px;
+    }
+
+    #mail,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: solid 1px $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, dos);
+        width: 25%;
+    }
+
+    .contacto_telefono {
+        padding: 10px 0 10px 5px;
+    }
+
+    #telefono,
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: solid 1px $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, dos);
+        width: 25%;
+    }
+
+    .mensaje {
+        padding: 10px 0 10px 5px;
+    }
+
+    #message,
+    input:focus {
+        outline: none;
+        border: 1px solid $negro;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: map-get($font_tamano, tres);
+        width: 25%;
+        padding: 2px;
     }
 }
-
-.contacto_nombre {
-    padding: 20px 0 10px 5px;
-}
-
-#nombre,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, dos);
-    width: 25%;
-}
-
-.contacto_email {
-    padding: 10px 0 10px 5px;
-}
-
-#mail,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, dos);
-    width: 25%;
-}
-
-.contacto_telefono {
-    padding: 10px 0 10px 5px;
-}
-
-#telefono,
-input:focus {
-    outline: none;
-    border: none;
-    border-bottom: solid 1px $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, dos);
-    width: 25%;
-}
-
-.mensaje {
-    padding: 10px 0 10px 5px;
-}
-
-#message,
-input:focus {
-    outline: none;
-    border: 1px solid $negro;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: map-get($font_tamano, tres);
-    width: 25%;
-    padding: 2px;
-}
-
 
 .contenedor_carrito {
     @include margin_padding;
-}
 
-.carrito_pages {
-    list-style-type: none;
-    display: flex;
-    margin: 10px 0 200px 0;
-    padding-left: 86px;
 
-    li {
-        a {
-            text-decoration: none;
-            font-size: map-get($font_tamano, cinco);
-            font-family: 'Roboto Condensed', sans-serif;
-            color: map-get($colores_pagina, primario);
-            justify-content: flex-start;
+    .carrito_pages {
+        list-style-type: none;
+        display: flex;
+        margin: 10px 0 200px 0;
+        padding-left: 96px;
+
+        li {
+            a {
+                text-decoration: none;
+                font-size: map-get($font_tamano, cinco);
+                font-family: 'Roboto Condensed', sans-serif;
+                color: map-get($colores_pagina, primario);
+                justify-content: flex-start;
+            }
         }
     }
-}
 
-.cesta {
-    padding-right: 5px;
-}
+    .cesta {
+        padding-right: 5px;
+    }
 
-.favoritos {
-    padding-left: 5px;
-}
+    .favoritos {
+        padding-left: 5px;
+    }
 
-.carrito_favoritos {
-    list-style-type: none;
-    display: flex;
-    margin: 10px 0;
-    padding-left: 90px;
+    .carrito_favoritos {
+        list-style-type: none;
+        display: flex;
+        margin: 10px 0;
+        padding-left: 98px;
 
-    li {
-        a {
-            text-decoration: none;
-            font-size: map-get($font_tamano, cinco);
-            font-family: 'Roboto Condensed', sans-serif;
-            color: map-get($colores_pagina, primario);
-            justify-content: flex-start;
+        li {
+            a {
+                text-decoration: none;
+                font-size: map-get($font_tamano, cinco);
+                font-family: 'Roboto Condensed', sans-serif;
+                color: map-get($colores_pagina, primario);
+                justify-content: flex-start;
+            }
         }
     }
-}
-.contenedor_favoritos {
-    margin: 20px 0 0 0;
-    padding-left: 90px;
-    width: 30%;
-    margin-bottom: 315px;
-}
 
-.info_favoritos {
-    font-size: map-get($font_tamano, dos);
+    .contenedor_favoritos {
+        margin: 20px 0 0 0;
+        padding-left: 98px;
+        margin-bottom: 315px;
+        width: 30%
+    }
+
+    .info_favoritos {
+        font-size: map-get($font_tamano, dos);
+    }
 }
 
 .galeria {
@@ -278,7 +270,7 @@ input:focus {
     &_video {
         padding-right: 15px;
         margin: 0;
-    
+
         a {
             text-decoration: none;
             color: map-get($colores_pagina, primario);
@@ -287,7 +279,6 @@ input:focus {
             font-family: 'Roboto Condensed', sans-serif;
         }
     }
-    
 }
 
 .img {
@@ -298,6 +289,92 @@ input:focus {
     }
 }
 
+
 .video {
     width: 400px;
+}
+
+.envio {
+    margin-bottom: 14px;
+    padding: 30px 77px;
+    display: flex;
+    width: 100%;
+
+    h2 {
+        padding: 5px;
+        font-size: map-get($font_tamano, cinco)
+    }
+
+    .contenedor_envio {
+        margin: 10px 40px 10px 10px;
+        padding: 5px;
+        width: 30%;
+    }
+
+    .info_envio {
+
+        padding: 5px;
+
+        .parrafo {
+            font-size: map-get($font_tamano, dos);
+            font-family: 'Roboto Condensed', sans-serif;
+
+            p {
+                padding-bottom: 5px;
+            }
+        }
+
+        h3 {
+            font-size: map-get($font_tamano, cuatro);
+            padding-bottom: 5px;
+        }
+
+        .opciones {
+
+            p {
+                font-size: map-get($font_tamano, dos);
+                font-family: 'Roboto Condensed', sans-serif;
+                padding-bottom: 12px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .pedido {
+
+        padding: 5px;
+
+        p {
+            font-size: map-get($font_tamano, dos);
+            padding-bottom: 5px;
+
+            a {
+                text-decoration: none;
+                color: map-get($colores_pagina, primario);
+            }
+        }
+    }
+
+    .estados {
+
+        p {
+            padding-bottom: 15px;
+        }
+    }
+
+    .info_cambios {
+
+        padding: 5px;
+
+        p {
+            padding-bottom: 10px;
+        }
+    }
+
+    .contenedor_cambios {
+        @extend .contenedor_envio
+    }
 }
