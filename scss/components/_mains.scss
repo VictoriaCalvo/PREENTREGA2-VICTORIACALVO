@@ -372,14 +372,14 @@
         width: 30%;
     }
 
-        .info_cambios {
+    .info_cambios {
 
-            padding: 5px;
+        padding: 5px;
 
-            p {
-                padding-bottom: 10px;
-                font-size: map-get($font_tamano, dos);
-                font-family: 'Roboto Condensed', sans-serif;
-            }
+        p {
+            padding-bottom: 10px;
+            font-size: map-get($font_tamano, dos);
+            font-family: 'Roboto Condensed', sans-serif;
         }
+    }
 }

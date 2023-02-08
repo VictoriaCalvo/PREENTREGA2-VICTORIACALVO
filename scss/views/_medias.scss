@@ -1,3 +1,5 @@
+/* VISTA DESKTOP */
+
 @media screen and (max-width: 992px) {
     .contenedor_inicio {
         grid-template-columns: 8% 92%;
@@ -267,7 +269,7 @@
 @media screen and (max-width: 576px) {
 
     .contenedor_inicio {
-        background-image: url(../assets/A.jpg);
+        background-image: url(../assets/img/A.jpg);
         grid-template-columns: 13% 87%;
 
         .navbar_oculto {
@@ -390,6 +392,10 @@
                 }
 
             }
+        }
+
+        .formulario_buscar {
+            padding-left: 97px;
         }
 
         .formulario {
@@ -548,6 +554,8 @@
     }
 }
 
+/* VISTA MOBILE */
+
 @media screen and (max-width: 480px) {
 
     .contenedor_inicio {
@@ -687,6 +695,10 @@
             }
         }
 
+        .formulario_buscar {
+            padding-left: 92px;
+        }
+
         .carrito_pages {
             padding-left: 183px;
 
@@ -790,7 +802,7 @@
 
 
         &_video {
-            padding: 20px;
+            padding-right: 20px;
         }
     }
 
@@ -824,6 +836,8 @@
     }
 }
 
+/* VISTA MOBILE */
+
 @media screen and (max-width: 400px) {
     .contenedor_pages {
 
@@ -836,6 +850,10 @@
             .web_pages {
                 padding-right: 97px;
             }
+        }
+
+        .formulario_buscar {
+            padding-left: 79px;
         }
 
         .carrito_pages {
@@ -883,6 +901,78 @@
 
             .web_pages {
                 padding-right: 90px;
+            }
+        }
+    }
+}
+
+/* VISTA MOBILE */
+
+@media screen and (max-width: 320px) {
+    .contenedor_pages {
+
+        .footer_pages {
+
+            .copy {
+                padding-left: 75px;
+            }
+
+            .web_pages {
+                padding-right: 55px;
+            }
+        }
+
+        .formulario_buscar {
+            padding-left: 68px;
+        }
+
+        .carrito_pages {
+            padding-left: 105px;
+        }
+
+        .contenedor_carrito {
+
+            .carrito_favoritos {
+                padding-left: 105px;
+            }
+
+            .contenedor_favoritos {
+                width: 91%;
+                padding-left: 30px;
+            }
+        }
+
+        .formulario {
+            padding: 50px 5px;
+
+            .contenedor_iniciar {
+                width: 92%;
+            }
+        }
+
+        .contenedor_contacto {
+
+
+            .formulario_contacto {
+                padding: 0 0 0 35px;
+
+                .form_form {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .new_footer {
+
+        .footer_pages {
+
+            .copy {
+                padding-left: 75px;
+            }
+
+            .web_pages {
+                padding-right: 46px;
             }
         }
     }
