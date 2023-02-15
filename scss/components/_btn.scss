@@ -72,6 +72,7 @@
     font-size: map-get($font_tamano, tres);
     transition: .2s;
     width: 25%;
+    border: 1px solid $negro;
 }
 
 input:hover {
