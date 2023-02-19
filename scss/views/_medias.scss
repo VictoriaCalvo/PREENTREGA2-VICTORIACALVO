@@ -4,35 +4,12 @@
     .contenedor_inicio {
         grid-template-columns: 8% 92%;
 
-        .navbar_oculto {
-
-            li {
-
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
-
-        .navegacion_visible {
-
-            li {
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
-
         .redes {
             padding-left: 85px;
         }
 
         .web {
             padding-right: 130px;
-
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
         }
 
         .contenido_imagen {
@@ -43,47 +20,12 @@
     .contenedor_pages {
         grid-template-columns: 8% 92%;
 
-        .navbar_oculto {
-
-            li {
-
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
-
-        .navegacion_pages {
-
-            li {
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
-
         .copy {
             padding-left: 90px;
-
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
         }
 
         .web_pages {
             width: 40%;
-
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
-        }
-
-        .contenedor_buscar {
-
-            #buscar,
-            input:focus {
-                // font-size: map-get($font_tamano, cinco);
-            }
         }
 
         .formulario {
@@ -92,53 +34,16 @@
             &_buscar {
                 padding: 0 0 360px 100px;
             }
-
-            h2 {
-                // font-size: map-get($font_tamano, ocho);
-            }
         }
 
         .contenedor_iniciar {
             width: 43%;
-
-            #email,
-            input:focus {
-                // font-size: map-get($font_tamano, tres);
-            }
-
-            #contraseña,
-            input:focus {
-                // font-size: map-get($font_tamano, tres);
-            }
-
-            .recuperar_contraseña {
-                // font-size: map-get($font_tamano, dos);
-            }
-
-            .boton_iniciar {
-
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
         }
 
         .contenedor_registrate {
 
             .registrate {
-
                 padding-bottom: 24px;
-
-                p {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-
-            .boton_cuenta {
-
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
             }
         }
 
@@ -153,96 +58,55 @@
             #nombre,
             input:focus {
                 width: 35%;
-                // font-size: map-get($font_tamano, tres);
             }
 
             #mail,
             input:focus {
                 width: 35%;
-                // font-size: map-get($font_tamano, tres);
             }
 
             #telefono,
             input:focus {
                 width: 35%;
-                // font-size: map-get($font_tamano, tres);
             }
 
             #message,
             input:focus {
                 width: 35%;
-                // font-size: map-get($font_tamano, tres);
             }
 
             .boton_enviar {
                 width: 35%;
-                // font-size: map-get($font_tamano, cuatro);
             }
         }
 
         .carrito_pages {
             padding-left: 100px;
-
-            li {
-                a {
-                    // font-size: map-get($font_tamano, ocho);
-                }
-            }
         }
 
         .info_carrito {
-            // font-size: map-get($font_tamano, tres);
             margin-bottom: 170px;
         }
 
         .carrito_favoritos {
-
-            li {
-                a {
-                    // font-size: map-get($font_tamano, ocho);
-                }
-            }
+            padding-left: 100px;
         }
 
         .contenedor_favoritos {
             margin-bottom: 280px;
             width: 39%;
-
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
-        }
-
-        .boton_iniciar {
-            a {
-                // font-size: map-get($font_tamano, cuatro);
-            }
+            padding-left: 100px;
         }
 
         .envio {
-            padding: 0 77px 0 77px;
+            padding: 0 80px;
 
             .contenedor_envio {
                 width: 45%;
-
-                .parrafo {
-                    // font-size: map-get($font_tamano, tres);
-                }
-
-                .opciones {
-
-                    p {
-                        // font-size: map-get($font_tamano, tres);
-                    }
-                }
             }
 
             .contenedor_pedido {
                 width: 43%;
-
-                p {
-                    // font-size: map-get($font_tamano, tres);
-                }
             }
 
             .contenedor_cambios {
@@ -258,57 +122,23 @@
     .galeria {
         padding-right: 0;
 
-
-        p {
-            // font-size: map-get($font_tamano, cuatro);
-        }
-
         &_video {
             padding-right: 0;
-
-            p {
-                // font-size: map-get($font_tamano, cuatro);
-            }
         }
     }
 
     .contenedor_new {
         grid-template-columns: 8% 92%;
-
-        .navbar_oculto {
-
-            li {
-
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
-
-        .navegacion_pages {
-
-            li {
-                a {
-                    // font-size: map-get($font_tamano, cuatro);
-                }
-            }
-        }
     }
 
     .new_footer {
 
         .copy {
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
+            padding-left: 90px;
         }
 
         .web_pages {
             width: 40%;
-
-            p {
-                // font-size: map-get($font_tamano, tres);
-            }
         }
     }
 }
@@ -340,6 +170,7 @@
 
     .contenedor_pages {
         grid-template-columns: 10% 90%;
+        grid-template-rows: 20vh auto 15vh;
 
         .footer_pages {
             padding: 45px 10px 0;
@@ -355,11 +186,17 @@
         }
 
         .formulario {
-            padding: 80px 65px;
+            padding: 80px 78px;
+            margin-bottom: 8px;
 
 
             &_buscar {
-                padding-left: 97px;
+                padding: 45px 0 310px 97px;
+            }
+
+            &_contacto {
+                padding: 11px 79px;
+                margin-bottom: 5px;
             }
         }
 
@@ -381,10 +218,6 @@
             .registrate {
                 padding-bottom: 38px;
             }
-        }
-
-        .formulario_contacto {
-            padding-left: 79px;
         }
 
         .form_form {
@@ -417,20 +250,37 @@
 
         .carrito_pages {
             padding-left: 98px;
+            margin: 35px 0 175px 0;
+        }
+
+        .info_carrito {
+            margin-bottom: 160px;
         }
 
         .carrito_favoritos {
             padding-left: 97px;
+            margin-top: 35px;
         }
 
         .contenedor_favoritos {
+            margin-bottom: 261px;
             padding-left: 97px;
-            width: 48%
+            width: 48%;
         }
 
         .envio {
+            margin-bottom: 0;
+
+            .contenedor_envio {
+                margin-bottom: 0;
+
+                .info_envio {
+                    padding: 5px 5px 0;
+                }
+            }
 
             .contenedor_cambios {
+                margin-bottom: 141px;
                 width: 57%;
             }
         }
@@ -456,7 +306,7 @@
             padding: 45px 10px 0;
 
             .copy {
-                padding-left: 77px;
+                padding-left: 67px;
             }
 
             .web_pages {
@@ -586,16 +436,17 @@
         }
 
         .formulario_buscar {
-            padding-left: 97px;
+            padding: 70px 0 285px 97px;
         }
 
         .formulario {
             display: flex;
             justify-content: center;
             padding-top: 60px;
+            margin-bottom: 28px;
 
             .contenedor_iniciar {
-                width: 66%;
+                width: 68%;
             }
         }
 
@@ -606,7 +457,7 @@
         .formulario_contacto {
             display: flex;
             justify-content: center;
-            padding: 0 40px 0 100px;
+            padding: 15px 40px 10px 100px;
 
             .form_form {
                 width: 90%;
@@ -639,21 +490,25 @@
 
         .carrito_pages {
             padding-left: 218px;
+            margin: 45px 0 165px;
         }
 
         .carrito_favoritos {
             padding-left: 218px;
+            margin-top: 45px;
         }
 
         .contenedor_favoritos {
             width: 74%;
             padding-left: 158px;
+            margin-bottom: 252px;
         }
 
         .envio {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding-left: 75px;
 
             .contenedor_envio {
                 width: 95%;
@@ -661,10 +516,12 @@
 
             .contenedor_pedido {
                 width: 95%;
+                padding-bottom: 10px;
             }
 
             .contenedor_cambios {
                 width: 75%;
+                margin-bottom: 101px;
             }
         }
 
@@ -854,7 +711,7 @@
             }
 
             .info_carrito {
-                margin-bottom: 120px;
+                margin-bottom: 160px;
                 padding-right: 5px;
             }
 
@@ -866,16 +723,18 @@
 
         .formulario {
             padding: 50px 25px;
+            margin-bottom: 68px;
         }
 
         .contenedor_contacto {
 
             .formulario_contacto {
-                padding: 0 0 0 75px;
+                padding: 21px 0 0 75px;
             }
         }
 
         .envio {
+            padding-left: 74px;
 
             .contenedor_cambios {
                 width: 95%;
@@ -972,7 +831,7 @@
             }
 
             .info_carrito {
-                margin-bottom: 120px;
+                margin-bottom: 160px;
                 padding-right: 5px;
             }
 
@@ -991,7 +850,7 @@
         .contenedor_contacto {
 
             .formulario_contacto {
-                padding: 0 0 0 45px;
+                padding: 21px 0 0 45px;
             }
         }
 
@@ -1000,6 +859,7 @@
 
             .contenedor_cambios {
                 width: 102%;
+                margin-bottom: 72px;
             }
         }
     }
@@ -1051,6 +911,7 @@
         .logo_pages {
 
             width: 95%;
+
             h1 {
 
                 a {
@@ -1095,7 +956,7 @@
             }
 
             .contenedor_favoritos {
-                width: 91%;
+                width: 93%;
                 padding-left: 30px;
             }
         }
@@ -1111,21 +972,35 @@
         .contenedor_contacto {
 
             .formulario_contacto {
-                padding: 0 0 0 35px;
+                padding: 20px 0 0 35px;
 
                 .form_form {
                     width: 100%;
                 }
             }
         }
+
+        .envio {
+            padding-left: 49px;
+
+            .contenedor_cambios {
+                width: 114%;
+                margin-bottom: 4px;
+            }
+        }
     }
 
     .contenedor_new {
+
+        .btn_pages {
+            padding-top: 10px;
+        }
+
         .logo_pages {
 
             width: 95%;
-            h1 {
 
+            h1 {
                 a {
                     font-size: map-get($font_tamano, siete);
                 }
@@ -1135,6 +1010,7 @@
         .header {
 
             .navegacion_pages {
+                margin: 0 4px 0 0;
 
                 .carrito {
                     padding-bottom: 11px;
@@ -1146,7 +1022,6 @@
     .new_footer {
 
         .footer_pages {
-
             .copy {
                 padding-left: 54px;
             }

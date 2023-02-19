@@ -308,7 +308,7 @@ input:hover {
 }
 .contenedor_buscar .formulario_buscar {
   margin: 10px 0;
-  padding: 0 0 370px 96px;
+  padding: 0 0 370px 90px;
 }
 .contenedor_buscar #buscar,
 .contenedor_buscar input:focus {
@@ -323,7 +323,7 @@ input:hover {
 
 .formulario {
   margin-bottom: 14px;
-  padding: 80px 77px;
+  padding: 80px 70px;
   display: flex;
   width: 100%;
 }
@@ -389,7 +389,7 @@ input:hover {
 }
 .contenedor_contacto .formulario_contacto {
   margin: 20px 15px 39px;
-  padding: 0 80px 0 77px;
+  padding: 0 80px 0 70px;
 }
 .contenedor_contacto .formulario_contacto h2 {
   padding: 5px;
@@ -452,7 +452,7 @@ input:hover {
   list-style-type: none;
   display: flex;
   margin: 10px 0 200px 0;
-  padding-left: 96px;
+  padding-left: 90px;
 }
 .contenedor_carrito .carrito_pages li a {
   text-decoration: none;
@@ -471,7 +471,7 @@ input:hover {
   list-style-type: none;
   display: flex;
   margin: 10px 0;
-  padding-left: 98px;
+  padding-left: 90px;
 }
 .contenedor_carrito .carrito_favoritos li a {
   text-decoration: none;
@@ -482,7 +482,7 @@ input:hover {
 }
 .contenedor_carrito .contenedor_favoritos {
   margin: 20px 0 0 0;
-  padding-left: 98px;
+  padding-left: 90px;
   margin-bottom: 315px;
   width: 30%;
 }
@@ -532,7 +532,7 @@ input:hover {
 
 .envio {
   margin-bottom: 14px;
-  padding: 30px 77px;
+  padding: 0 70px;
   display: flex;
   width: 100%;
 }
@@ -636,7 +636,7 @@ input:hover {
 }
 .footer .copy {
   margin: 10px;
-  padding-left: 87px;
+  padding-left: 80px;
   width: 40%;
   font-size: 0.7rem;
 }
@@ -735,12 +735,16 @@ input:hover {
   .contenedor_pages .info_carrito {
     margin-bottom: 170px;
   }
+  .contenedor_pages .carrito_favoritos {
+    padding-left: 100px;
+  }
   .contenedor_pages .contenedor_favoritos {
     margin-bottom: 280px;
     width: 39%;
+    padding-left: 100px;
   }
   .contenedor_pages .envio {
-    padding: 0 77px 0 77px;
+    padding: 0 80px;
   }
   .contenedor_pages .envio .contenedor_envio {
     width: 45%;
@@ -762,6 +766,9 @@ input:hover {
   }
   .contenedor_new {
     grid-template-columns: 8% 92%;
+  }
+  .new_footer .copy {
+    padding-left: 90px;
   }
   .new_footer .web_pages {
     width: 40%;
@@ -786,6 +793,7 @@ input:hover {
   }
   .contenedor_pages {
     grid-template-columns: 10% 90%;
+    grid-template-rows: 20vh auto 15vh;
   }
   .contenedor_pages .footer_pages {
     padding: 45px 10px 0;
@@ -798,10 +806,15 @@ input:hover {
     width: 40%;
   }
   .contenedor_pages .formulario {
-    padding: 80px 65px;
+    padding: 80px 78px;
+    margin-bottom: 8px;
   }
   .contenedor_pages .formulario_buscar {
-    padding-left: 97px;
+    padding: 45px 0 310px 97px;
+  }
+  .contenedor_pages .formulario_contacto {
+    padding: 11px 79px;
+    margin-bottom: 5px;
   }
   .contenedor_pages .contenedor_iniciar {
     width: 49%;
@@ -817,9 +830,6 @@ input:hover {
   }
   .contenedor_pages .contenedor_registrate .registrate {
     padding-bottom: 38px;
-  }
-  .contenedor_pages .formulario_contacto {
-    padding-left: 79px;
   }
   .contenedor_pages .form_form {
     width: 80%;
@@ -845,15 +855,31 @@ input:hover {
   }
   .contenedor_pages .carrito_pages {
     padding-left: 98px;
+    margin: 35px 0 175px 0;
+  }
+  .contenedor_pages .info_carrito {
+    margin-bottom: 160px;
   }
   .contenedor_pages .carrito_favoritos {
     padding-left: 97px;
+    margin-top: 35px;
   }
   .contenedor_pages .contenedor_favoritos {
+    margin-bottom: 261px;
     padding-left: 97px;
     width: 48%;
   }
+  .contenedor_pages .envio {
+    margin-bottom: 0;
+  }
+  .contenedor_pages .envio .contenedor_envio {
+    margin-bottom: 0;
+  }
+  .contenedor_pages .envio .contenedor_envio .info_envio {
+    padding: 5px 5px 0;
+  }
   .contenedor_pages .envio .contenedor_cambios {
+    margin-bottom: 141px;
     width: 57%;
   }
   .contenedor_new {
@@ -872,7 +898,7 @@ input:hover {
     padding: 45px 10px 0;
   }
   .new_footer .footer_pages .copy {
-    padding-left: 77px;
+    padding-left: 67px;
   }
   .new_footer .footer_pages .web_pages {
     padding-right: 60px;
@@ -966,15 +992,16 @@ input:hover {
     padding-bottom: 27px;
   }
   .contenedor_pages .formulario_buscar {
-    padding-left: 97px;
+    padding: 70px 0 285px 97px;
   }
   .contenedor_pages .formulario {
     display: flex;
     justify-content: center;
     padding-top: 60px;
+    margin-bottom: 28px;
   }
   .contenedor_pages .formulario .contenedor_iniciar {
-    width: 66%;
+    width: 68%;
   }
   .contenedor_pages .contenedor_registrate {
     display: none;
@@ -982,7 +1009,7 @@ input:hover {
   .contenedor_pages .formulario_contacto {
     display: flex;
     justify-content: center;
-    padding: 0 40px 0 100px;
+    padding: 15px 40px 10px 100px;
   }
   .contenedor_pages .formulario_contacto .form_form {
     width: 90%;
@@ -1008,27 +1035,33 @@ input:hover {
   }
   .contenedor_pages .carrito_pages {
     padding-left: 218px;
+    margin: 45px 0 165px;
   }
   .contenedor_pages .carrito_favoritos {
     padding-left: 218px;
+    margin-top: 45px;
   }
   .contenedor_pages .contenedor_favoritos {
     width: 74%;
     padding-left: 158px;
+    margin-bottom: 252px;
   }
   .contenedor_pages .envio {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 75px;
   }
   .contenedor_pages .envio .contenedor_envio {
     width: 95%;
   }
   .contenedor_pages .envio .contenedor_pedido {
     width: 95%;
+    padding-bottom: 10px;
   }
   .contenedor_pages .envio .contenedor_cambios {
     width: 75%;
+    margin-bottom: 101px;
   }
   .contenedor_pages .footer_pages {
     padding: 0 95px;
@@ -1160,7 +1193,7 @@ input:hover {
     padding-left: 170px;
   }
   .contenedor_pages .contenedor_carrito .info_carrito {
-    margin-bottom: 120px;
+    margin-bottom: 160px;
     padding-right: 5px;
   }
   .contenedor_pages .contenedor_carrito .contenedor_favoritos {
@@ -1169,9 +1202,13 @@ input:hover {
   }
   .contenedor_pages .formulario {
     padding: 50px 25px;
+    margin-bottom: 68px;
   }
   .contenedor_pages .contenedor_contacto .formulario_contacto {
-    padding: 0 0 0 75px;
+    padding: 21px 0 0 75px;
+  }
+  .contenedor_pages .envio {
+    padding-left: 74px;
   }
   .contenedor_pages .envio .contenedor_cambios {
     width: 95%;
@@ -1231,7 +1268,7 @@ input:hover {
     padding-left: 132px;
   }
   .contenedor_pages .contenedor_carrito .info_carrito {
-    margin-bottom: 120px;
+    margin-bottom: 160px;
     padding-right: 5px;
   }
   .contenedor_pages .contenedor_carrito .contenedor_favoritos {
@@ -1242,13 +1279,14 @@ input:hover {
     width: 82%;
   }
   .contenedor_pages .contenedor_contacto .formulario_contacto {
-    padding: 0 0 0 45px;
+    padding: 21px 0 0 45px;
   }
   .contenedor_pages .envio {
     padding-left: 60px;
   }
   .contenedor_pages .envio .contenedor_cambios {
     width: 102%;
+    margin-bottom: 72px;
   }
   .new_footer .footer_pages .copy {
     padding-left: 92px;
@@ -1293,7 +1331,7 @@ input:hover {
     padding-left: 99px;
   }
   .contenedor_pages .contenedor_carrito .contenedor_favoritos {
-    width: 91%;
+    width: 93%;
     padding-left: 30px;
   }
   .contenedor_pages .formulario {
@@ -1303,16 +1341,29 @@ input:hover {
     width: 92%;
   }
   .contenedor_pages .contenedor_contacto .formulario_contacto {
-    padding: 0 0 0 35px;
+    padding: 20px 0 0 35px;
   }
   .contenedor_pages .contenedor_contacto .formulario_contacto .form_form {
     width: 100%;
+  }
+  .contenedor_pages .envio {
+    padding-left: 49px;
+  }
+  .contenedor_pages .envio .contenedor_cambios {
+    width: 114%;
+    margin-bottom: 4px;
+  }
+  .contenedor_new .btn_pages {
+    padding-top: 10px;
   }
   .contenedor_new .logo_pages {
     width: 95%;
   }
   .contenedor_new .logo_pages h1 a {
     font-size: 1.5rem;
+  }
+  .contenedor_new .header .navegacion_pages {
+    margin: 0 4px 0 0;
   }
   .contenedor_new .header .navegacion_pages .carrito {
     padding-bottom: 11px;

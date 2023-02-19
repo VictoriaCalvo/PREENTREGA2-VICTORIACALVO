@@ -32,7 +32,7 @@
 
     .formulario_buscar {
         margin: 10px 0;
-        padding: 0 0 370px 96px;
+        padding: 0 0 370px 90px;
     }
 
     #buscar,
@@ -49,7 +49,7 @@
 
 .formulario {
     margin-bottom: 14px;
-    padding: 80px 77px;
+    padding: 80px 70px;
     display: flex;
     width: 100%;
 
@@ -124,7 +124,7 @@
     @include margin_padding;
 
     .formulario_contacto {
-        @include margin_y_padding (20px 15px 39px, 0 80px 0 77px);
+        @include margin_y_padding (20px 15px 39px, 0 80px 0 70px);
 
         h2 {
             padding: 5px;
@@ -197,7 +197,7 @@
         list-style-type: none;
         display: flex;
         margin: 10px 0 200px 0;
-        padding-left: 96px;
+        padding-left: 90px;
 
         li {
             a {
@@ -222,7 +222,7 @@
         list-style-type: none;
         display: flex;
         margin: 10px 0;
-        padding-left: 98px;
+        padding-left: 90px;
 
         li {
             a {
@@ -237,7 +237,7 @@
 
     .contenedor_favoritos {
         margin: 20px 0 0 0;
-        padding-left: 98px;
+        padding-left: 90px;
         margin-bottom: 315px;
         width: 30%
     }
@@ -295,7 +295,7 @@
 
 .envio {
     margin-bottom: 14px;
-    padding: 30px 77px;
+    padding: 0 70px;
     display: flex;
     width: 100%;
 
